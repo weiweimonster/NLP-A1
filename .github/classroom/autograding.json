@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "MLP",
+      "setup": "sudo -H pip3 install -qr requirements.txt",
+      "run": "pytest tests/test_multilayer_perceptron.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Perceptron_1",
+      "setup": "sudo -H pip3 install -qr requirements.txt",
+      "run": "pytest -m perceptron_1",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Perceptron_2",
+      "setup": "sudo -H pip3 install -qr requirements.txt",
+      "run": "pytest -m perceptron_2",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Perceptron_3",
+      "setup": "sudo -H pip3 install -qr requirements.txt",
+      "run": "pytest -m perceptron_3",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Perceptron_4",
+      "setup": "sudo -H pip3 install -qr requirements.txt",
+      "run": "pytest -m perceptron_4",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
